@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.35906.104
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{9CBABF38-57E2-4488-A9ED-935F9F2E2126}"
+	ProjectSection(SolutionItems) = preProject
+		docs\images\SKKernelDemo.PNG = docs\images\SKKernelDemo.PNG
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9E941022-E027-4C47-857E-EFF469BD1830}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SKKernelDemo", "src\SKKernelDemo\SKKernelDemo.csproj", "{BBEBCFD3-D7B3-11E6-E228-19E9421F291A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBEBCFD3-D7B3-11E6-E228-19E9421F291A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBEBCFD3-D7B3-11E6-E228-19E9421F291A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBEBCFD3-D7B3-11E6-E228-19E9421F291A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBEBCFD3-D7B3-11E6-E228-19E9421F291A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9CBABF38-57E2-4488-A9ED-935F9F2E2126} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{BBEBCFD3-D7B3-11E6-E228-19E9421F291A} = {9E941022-E027-4C47-857E-EFF469BD1830}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E277A79-3CCF-49EE-A2BC-21714DB9BD2F}
+	EndGlobalSection
+EndGlobal
