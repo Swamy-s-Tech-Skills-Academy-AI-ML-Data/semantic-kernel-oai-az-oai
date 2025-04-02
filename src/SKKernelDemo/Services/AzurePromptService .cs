@@ -21,5 +21,5 @@ internal sealed class AzurePromptService(AzureKernelWrapper kernelWrapper) : IAz
 
         return result?.GetValue<string>();
     }
-    
+
 }
