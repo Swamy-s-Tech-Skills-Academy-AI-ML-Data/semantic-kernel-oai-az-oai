@@ -1,14 +1,8 @@
-﻿using System.Text;
-using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Extensions.DependencyInjection;
 using SKKernelDemo.Infrastructure;
 using SKKernelDemo.Services;
+using System.Text;
 
-#pragma warning disable SKEXP0010
-#pragma warning disable SKEXP0001
-#pragma warning disable S125
-#pragma warning disable CA1303
-
-// Set console output encoding to UTF-8
 Console.OutputEncoding = Encoding.UTF8;
 
 var host = HostBuilderFactory.BuildHost(args);
