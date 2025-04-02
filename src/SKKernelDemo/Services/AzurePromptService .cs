@@ -21,15 +21,5 @@ internal sealed class AzurePromptService(AzureKernelWrapper kernelWrapper) : IAz
 
         return result?.GetValue<string>();
     }
-
-    public async IAsyncEnumerable<string?> StreamPromptResponseAsync(string prompt)
-    {
-        await foreach (var chatUpdate in _kernel.InvokePromptStreamingAsync<StreamingChatMessageContent>(prompt, new KernelArguments(GetDefaultExecutionSettings())).ConfigureAwait(false))
-        {
-            if (!string.IsNullOrEmpty(chatUpdate.Content))
-            {
-                yield return chatUpdate.Content;
-            }
-        }
-    }
+    
 }

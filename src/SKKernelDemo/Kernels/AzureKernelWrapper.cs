@@ -15,11 +15,6 @@ internal sealed class AzureKernelWrapper
         var builder = Kernel.CreateBuilder()
             .AddAzureOpenAIChatCompletion(config.AzureModel, config.AzureEndpoint, config.AzureKey);
 
-        //builder.Services.AddLogging(logging =>
-        //{
-        //    logging.AddConsole().SetMinimumLevel(LogLevel.Trace);
-        //});
-
         Kernel = builder.Build();
     }
 }
